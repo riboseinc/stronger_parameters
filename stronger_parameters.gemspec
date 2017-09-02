@@ -1,3 +1,6 @@
+# (c) Copyright 2017 Ribose Inc.
+#
+
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
@@ -6,8 +9,8 @@ require "stronger_parameters/version"
 Gem::Specification.new do |spec|
   spec.name          = "stronger_parameters"
   spec.version       = StrongerParameters::VERSION
-  spec.authors       = ["Sebastian Skałacki"]
-  spec.email         = ["skalee@gmail.com"]
+  spec.authors       = ["Ribose Inc."]
+  spec.email         = ["open.source@ribose.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
